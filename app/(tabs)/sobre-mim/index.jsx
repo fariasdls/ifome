@@ -6,7 +6,7 @@ export default function Page() {
     return (
         <View style={styles.container}>
             <View>
-                <Image style={styles.imagem} source={require('../assets/images/argentina.jpeg')}></Image>
+                <Image style={styles.imagem} source={require('../../../assets/images/argentina.jpeg')}></Image>
             </View>
             <View style={styles.box}>
                 <Text style={styles.titulo}>Bem-vindo(a) ao meu app!</Text>
